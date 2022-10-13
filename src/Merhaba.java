@@ -1,8 +1,10 @@
 public class Merhaba {
     public static void main(String[] args) {
         System.out.println("Merhaba");
-        for (int i = 0; i <6 ; i++) {
-            System.out.println("geldim");
-        }
+        int i=0;
+        do {
+            System.out.println(i);
+            i++;
+        }while (i<5);
     }
 }
