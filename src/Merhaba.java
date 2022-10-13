@@ -6,5 +6,8 @@ public class Merhaba {
             System.out.println(i);
             i++;
         }while (i<5);
+        for (int j = 0; j <3 ; j++) {
+            System.out.println("geldim");
+        }
     }
 }
